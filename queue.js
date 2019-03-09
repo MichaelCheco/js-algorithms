@@ -1,6 +1,6 @@
 //FIFO
 
-function createQueue() {
+export function createQueue() {
 	const queue = [];
 	return {
 		// add or enqueue
